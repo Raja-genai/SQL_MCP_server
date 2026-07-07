@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "An MCP server for SQL database management using SQLite."
 readme = "README.md"
 requires-python = ">=3.13"
+license = "MIT"
 authors = [
 
     { name = "Anna Vamsi Krishna Raja" }
@@ -36,5 +37,3 @@ sql-mcp = "sql_mcp.main:main"
 Homepage = "https://github.com/Raja-genai/SQL_MCP"
 Repository = "https://github.com/Raja-genai/SQL_MCP"
 Issues = "https://github.com/Raja-genai/SQL_MCP/issues"
-
-license = { text = "MIT" }
