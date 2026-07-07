@@ -2,7 +2,7 @@
 
 ![PyPI](https://img.shields.io/pypi/v/raja-sql-mcp)
 ![Python](https://img.shields.io/pypi/pyversions/raja-sql-mcp)
-![License](https://img.shields.io/github/license/Raja-genai/SQL_MCP)
+![License](https://img.shields.io/github/license/Raja-genai/SQL_MCP_server)
 
 An MCP (Model Context Protocol) server for interacting with SQLite databases. This server provides tools to inspect database schemas, execute SQL queries, and perform CRUD operations, making it easy to integrate databases with AI agents and LLM-powered applications.
 
