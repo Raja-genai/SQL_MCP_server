@@ -1,9 +1,40 @@
 [project]
-name = "sql-mcp"
+name = "raja_sql_mcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "An MCP server for SQL database management using SQLite."
 readme = "README.md"
 requires-python = ">=3.13"
+authors = [
+
+    { name = "Anna Vamsi Krishna Raja" }
+
+]
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "sqlite",
+    "sql",
+    "database",
+    "fastmcp"
+]
 dependencies = [
     "fastmcp>=3.4.3",
 ]
+
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+sql-mcp = "sql_mcp.main:main"
+
+[project.urls]
+Homepage = "https://github.com/Raja-genai/SQL_MCP"
+Repository = "https://github.com/Raja-genai/SQL_MCP"
+Issues = "https://github.com/Raja-genai/SQL_MCP/issues"
+
+license = { text = "MIT" }
